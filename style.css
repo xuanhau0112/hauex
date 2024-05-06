@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+.container{
+	width: 80%;margin: 0 auto
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px;color: #666666;margin: 0
+}
+
+.menu{
+	width: 100%; height: 50px; background-color: #000000; text-align: center; line-height: 50px
+}
+.menu a{ text-decoration: none;padding: 10px 60px;color: white}
+.menu a:hover{color: #F98604}
+.banner{width: 100%;min-height:  400px}
+.img-100 {width: 100%;height: auto}
+main{
+	width: 100%; min-height: 400px
+}
+.w-25{
+	width: 25%;padding: 15px;float: left;text-align: center;min-height: 100px
+}
+.ten-sp{
+	color: #A6029B;font-weight: bold
+}
+.gia-sp{
+	color: red;font-weight: bold
+}
+footer{
+	width: 100%; min-height:200px;background-color: #070707;clear: both
+}
+.f-33{
+	width: 33.33%; padding: 20;float: left;min-height: 100px;color: #FFFFFF
+}
+footer a{
+	text-decoration: none; color: #FFFFFF
+}
+footer a:hover{
+	color:#F98604 
+}
+.text-tieude{color: yellow;font-size: 18px
+}
